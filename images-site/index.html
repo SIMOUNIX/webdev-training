@@ -4,9 +4,49 @@
     <meta charset="utf-8">
     <title>Korea 2022 - SIMOUNIX</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
   </head>
   <body>
-    <h1 class="main-title">KOREA 2022</h1>
-    <p class="description">Live the korean life as an exchange student in Korea (Kyung Hee University) through this portofolio. I will be sharing everything I am doing during the 2022 spring semester!</p>
+    <h1 class="main-title">
+      KOREA 2022
+    </h1>
+    <p class="description">
+      <span>
+      Live the korean life as an exchange student in Korea (Kyung Hee University) through this portofolio. I will be sharing everything I am doing during the 2022 spring semester!
+      </span>
+    </p>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/test/forest3.jpg" style="width:100%">
+        <div class="text-images">Autumn forest</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/test/forest1.jpg" style="width:100%">
+        <div class="text-images">Plane in the forest</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/test/forest2.jpg" style="width:100%">
+        <div class="text-images">Drawn forest</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/test/forest4.jpg" style="width:100%">
+        <div class="text-images">Dark forest</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
   </body>
 </html>
