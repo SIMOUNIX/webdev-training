@@ -1,4 +1,20 @@
-p{
-    color: orange;
-    font-size: 16px;
+body{
+    background-color: #705548;
+}
+
+
+.main-title{
+    font-size: 50px;
+    color: #4E403E;
+    text-align: center;
+    text-shadow: 2px 2px #453B3B;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description{
+    color: #4E403E;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    text-shadow: 1px 1px #453B3B;
 }
