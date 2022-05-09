@@ -1,0 +1,32 @@
+.logo
+{
+    width: 0.1%;
+    height: auto;
+}
+
+section
+{
+    position: relative; 
+    width: 100%;
+    min-height: auto;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+header
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #fff;
+}
+
+
